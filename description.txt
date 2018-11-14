@@ -1,0 +1,1 @@
+Removes expert boss health scaling and replaces with vanilla boss scaling from normal mode. Useful if you have a lot of people with not-so-good gear on your server trying to tag along in the playthrough.
