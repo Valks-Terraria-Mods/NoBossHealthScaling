@@ -1,4 +1,5 @@
-﻿using Terraria;
+using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace NoBossHealthScaling
@@ -7,7 +8,9 @@ namespace NoBossHealthScaling
     {
         public override void ScaleExpertStats(NPC npc, int numPlayers, float bossLifeScale) {
             Main.expertMode = false;
-            npc.SetDefaults(npc.type);
+			if (npc.type != 81) { // Corrupted Slime Dupe Fix
+				npc.SetDefaults(npc.type);
+			}
             Main.expertMode = true;
         }
     }
