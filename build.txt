@@ -1,4 +1,4 @@
 author = valkyrienyanko
-version = 1.4
+version = 1.4.1
 displayName = [c/ff6666:No Expert Boss Health Scaling]
-homepage = https://discord.gg/thMupbv
+homepage = https://github.com/Valks-Terraria-Mods/NoBossHealthScaling
